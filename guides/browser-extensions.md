@@ -4,7 +4,7 @@ Convert any webpage to markdown with one click using the UnWeb browser extension
 
 ## Availability
 
-- **Chrome** (Manifest V3) — Coming soon to Chrome Web Store
+- **Chrome** (Manifest V3) — [Install from Chrome Web Store](https://chromewebstore.google.com/detail/unweb-html-to-markdown/belfnjbbagbongfjandjecgpfkeabnjn)
 - **Firefox** (Manifest V2) — [Install from Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/unweb-html-to-markdown/)
 
 ## Features
