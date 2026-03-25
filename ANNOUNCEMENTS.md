@@ -15,5 +15,22 @@ UnWeb is live! The HTML-to-Markdown conversion platform is now available at [unw
 - Documentation at [docs.unweb.info](https://docs.unweb.info)
 
 **Coming soon:**
-- Chrome and Firefox browser extensions
 - n8n, Make, and Zapier integration templates
+
+---
+
+## 2026-03-25 — Browser Extensions Now Available
+
+The UnWeb browser extensions are live on both Chrome Web Store and Firefox Add-ons. Convert any webpage to clean markdown with a single click.
+
+**Install:**
+- [Chrome Web Store](https://chromewebstore.google.com/detail/unweb-html-to-markdown/belfnjbbagbongfjandjecgpfkeabnjn)
+- [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/unweb-html-to-markdown/)
+
+**How it works:**
+1. Install the extension and enter your API key
+2. Navigate to any webpage
+3. Click the UnWeb icon and hit **Convert**
+4. Copy the markdown or download as a `.md` file
+
+See the [Browser Extensions Guide](guides/browser-extensions.md) for full details.

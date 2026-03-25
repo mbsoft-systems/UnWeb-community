@@ -2,10 +2,10 @@
 
 Convert any webpage to markdown with one click using the UnWeb browser extension.
 
-## Availability
+## Install
 
-- **Chrome** (Manifest V3) — [Install from Chrome Web Store](https://chromewebstore.google.com/detail/unweb-html-to-markdown/belfnjbbagbongfjandjecgpfkeabnjn)
-- **Firefox** (Manifest V2) — [Install from Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/unweb-html-to-markdown/)
+- **Chrome** — [Install from Chrome Web Store](https://chromewebstore.google.com/detail/unweb-html-to-markdown/belfnjbbagbongfjandjecgpfkeabnjn)
+- **Firefox** — [Install from Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/unweb-html-to-markdown/)
 
 ## Features
 
@@ -16,32 +16,12 @@ Convert any webpage to markdown with one click using the UnWeb browser extension
 - API key authentication
 - Usage tracking display
 
-## Manual Installation (Developer Mode)
-
-Until the extensions are published to the stores, you can install them manually.
-
-### Chrome
-
-1. Download the Chrome extension files from the project
-2. Open `chrome://extensions/` in Chrome
-3. Enable **Developer mode** (toggle in top-right)
-4. Click **Load unpacked**
-5. Select the Chrome extension directory
-
-### Firefox
-
-1. Download the Firefox extension files from the project
-2. Open `about:debugging#/runtime/this-firefox` in Firefox
-3. Click **Load Temporary Add-on**
-4. Select `manifest.json` from the Firefox extension directory
-
-**Note:** Temporary add-ons in Firefox are removed when the browser closes.
-
 ## Setup
 
-1. Click the UnWeb extension icon in your browser toolbar
-2. Enter your API key (get one from [app.unweb.info](https://app.unweb.info))
-3. Click **Save**
+1. Install the extension from the link above
+2. Click the UnWeb extension icon in your browser toolbar
+3. Enter your API key (get one from [app.unweb.info](https://app.unweb.info))
+4. Click **Save**
 
 ## Usage
 
@@ -49,6 +29,25 @@ Until the extensions are published to the stores, you can install them manually.
 2. Click the UnWeb icon
 3. Click **Convert**
 4. Copy the markdown or download as a `.md` file
+
+## Manual Installation (Developer Mode)
+
+If you prefer to load the extension from source:
+
+### Chrome
+
+1. Open `chrome://extensions/`
+2. Enable **Developer mode** (toggle in top-right)
+3. Click **Load unpacked**
+4. Select the `browser-extensions/src/chrome` directory
+
+### Firefox
+
+1. Open `about:debugging#/runtime/this-firefox`
+2. Click **Load Temporary Add-on**
+3. Select `manifest.json` from the `browser-extensions/src/firefox` directory
+
+**Note:** Temporary add-ons in Firefox are removed when the browser closes.
 
 ## Next Steps
 
