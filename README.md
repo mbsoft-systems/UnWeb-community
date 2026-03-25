@@ -22,7 +22,7 @@ UnWeb converts HTML to clean [CommonMark](https://commonmark.org/) markdown. It 
 | Dashboard | [app.unweb.info](https://app.unweb.info) |
 | API Reference | [docs.unweb.info](https://docs.unweb.info) |
 | CLI Releases | [GitHub Releases](https://github.com/mbsoft-systems/unweb-community/releases) |
-| Browser Extensions | Coming soon |
+| Browser Extensions | [Chrome](https://chromewebstore.google.com/detail/unweb-html-to-markdown/belfnjbbagbongfjandjecgpfkeabnjn) · [Firefox](https://addons.mozilla.org/en-US/firefox/addon/unweb-html-to-markdown/) |
 | Landing Page | [unweb.info](https://unweb.info) |
 
 ## Getting Started
@@ -60,16 +60,17 @@ Ready-to-use examples for connecting UnWeb to your tools.
 
 Convert any webpage to markdown with one click.
 
-- **Chrome** (Manifest V3) — Coming soon to Chrome Web Store
-- **Firefox** (Manifest V2) — Coming soon to Firefox Add-ons
+- **Chrome** — [Install from Chrome Web Store](https://chromewebstore.google.com/detail/unweb-html-to-markdown/belfnjbbagbongfjandjecgpfkeabnjn)
+- **Firefox** — [Install from Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/unweb-html-to-markdown/)
 
-See the [Browser Extensions Guide](guides/browser-extensions.md) for manual installation.
+See the [Browser Extensions Guide](guides/browser-extensions.md) for setup and usage.
 
 ## Announcements
 
 See [ANNOUNCEMENTS.md](ANNOUNCEMENTS.md) for major updates and breaking changes.
 
 **Latest:**
+- **2026-03-25** — Browser extensions published on Chrome Web Store and Firefox Add-ons.
 - **2026-03-12** — UnWeb launched! API, dashboard, and CLI now available.
 
 ## Support & Contributing
