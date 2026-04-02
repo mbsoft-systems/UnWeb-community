@@ -1,34 +1,22 @@
-# UnWeb
+# UnWeb Community
 
-**Convert any HTML to clean Markdown.** API, CLI, browser extensions, and integrations for automation workflows.
+**Examples, guides, and community resources for UnWeb.**
 
-[![CLI Release](https://img.shields.io/github/v/release/mbsoft-systems/unweb-community?label=CLI&style=flat-square)](https://github.com/mbsoft-systems/unweb-community/releases)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)
-
-## What is UnWeb?
-
-UnWeb converts HTML to clean [CommonMark](https://commonmark.org/) markdown. It automatically extracts the main content from full webpages — stripping navigation, footers, and boilerplate — giving you just the content you need.
-
-**Use cases:**
-- Convert web pages to markdown for LLM context
-- Archive articles and documentation in a readable format
-- Build content pipelines with n8n, Make, or custom scripts
-- Feed web content into AI agents and workflows
+> Looking for SDKs & tools? See the [Ecosystem Overview](https://docs.unweb.info/guide/ecosystem).
 
 ## Quick Links
 
 | Resource | Link |
 |----------|------|
+| Documentation | [docs.unweb.info](https://docs.unweb.info) |
 | Dashboard | [app.unweb.info](https://app.unweb.info) |
-| API Reference | [docs.unweb.info](https://docs.unweb.info) |
-| CLI Releases | [GitHub Releases](https://github.com/mbsoft-systems/unweb-community/releases) |
-| Browser Extensions | [Chrome](https://chromewebstore.google.com/detail/unweb-html-to-markdown/belfnjbbagbongfjandjecgpfkeabnjn) · [Firefox](https://addons.mozilla.org/en-US/firefox/addon/unweb-html-to-markdown/) |
+| API Reference | [docs.unweb.info/api](https://docs.unweb.info/api/) |
 | Landing Page | [unweb.info](https://unweb.info) |
 
 ## Getting Started
 
 1. **Sign up** at [app.unweb.info](https://app.unweb.info) and create an API key
-2. **Pick your tool** — CLI, API, browser extension, or an integration
+2. **Pick your tool** — see the [Ecosystem Overview](https://docs.unweb.info/guide/ecosystem) to choose
 3. **Convert** — pass HTML or a URL, get clean markdown back
 
 See the full [Getting Started Guide](guides/getting-started.md) for a detailed walkthrough.
@@ -56,29 +44,12 @@ Ready-to-use examples for connecting UnWeb to your tools.
 | [Make](examples/make/) | Integromat/Make scenarios | Coming soon |
 | [Zapier](examples/zapier/) | Zapier zap templates | Coming soon |
 
-## Browser Extensions
-
-Convert any webpage to markdown with one click.
-
-- **Chrome** — [Install from Chrome Web Store](https://chromewebstore.google.com/detail/unweb-html-to-markdown/belfnjbbagbongfjandjecgpfkeabnjn)
-- **Firefox** — [Install from Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/unweb-html-to-markdown/)
-
-See the [Browser Extensions Guide](guides/browser-extensions.md) for setup and usage.
-
-## Announcements
-
-See [ANNOUNCEMENTS.md](ANNOUNCEMENTS.md) for major updates and breaking changes.
-
-**Latest:**
-- **2026-03-25** — Browser extensions published on Chrome Web Store and Firefox Add-ons.
-- **2026-03-12** — UnWeb launched! API, dashboard, and CLI now available.
-
 ## Support & Contributing
 
 - **Bug reports:** [Open an issue](https://github.com/mbsoft-systems/unweb-community/issues/new?template=bug_report.md)
 - **Feature requests:** [Open an issue](https://github.com/mbsoft-systems/unweb-community/issues/new?template=feature_request.md)
 - **Integration examples:** PRs welcome to the `examples/` directory
-- **API reference:** [docs.unweb.info](https://docs.unweb.info)
+- **Full documentation:** [docs.unweb.info](https://docs.unweb.info)
 
 ## License
 
