@@ -13,6 +13,26 @@
 | API Reference | [docs.unweb.info/api](https://docs.unweb.info/api/) |
 | Landing Page | [unweb.info](https://unweb.info) |
 
+## MCP Server (Claude Code, Cursor, Windsurf)
+
+Use UnWeb directly from your AI coding assistant. Add to your MCP config:
+
+```json
+{
+  "mcpServers": {
+    "unweb": {
+      "command": "npx",
+      "args": ["-y", "@mbsoftsystems/unweb-mcp"],
+      "env": { "UNWEB_API_KEY": "unweb_your_key_here" }
+    }
+  }
+}
+```
+
+5 tools: `convert_url`, `convert_html`, `crawl_start`, `crawl_status`, `crawl_download` — with content quality scoring on every response.
+
+[npm](https://www.npmjs.com/package/@mbsoftsystems/unweb-mcp) · [GitHub](https://github.com/mbsoft-systems/unweb-mcp) · [Docs](https://docs.unweb.info/mcp/setup)
+
 ## Getting Started
 
 1. **Sign up** at [app.unweb.info](https://app.unweb.info) and create an API key
@@ -30,6 +50,7 @@ See the full [Getting Started Guide](guides/getting-started.md) for a detailed w
 | [API Usage](guides/api-usage.md) | Use the API directly with cURL, Python, or JavaScript |
 | [Batch Processing](guides/batch-processing.md) | Convert multiple files or URLs in bulk |
 | [Browser Extensions](guides/browser-extensions.md) | Install and use the Chrome/Firefox extensions |
+| [MCP Server](https://docs.unweb.info/mcp/setup) | Set up UnWeb in Claude Code, Cursor, or Windsurf |
 
 ## Integration Examples
 
